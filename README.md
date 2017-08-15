@@ -1,10 +1,6 @@
-# The Movie-Trailer-Website
+# Transact-SQL-Demo
 
-Full Stack Developer Nanodegree Project1
-
-This web application allows users to browse provided movies and watch their trailers from generated static web page.
-
-Python 2.7 must be installed on your computer for running the application.
+These scripts have illustrative purpose of my basic T-SQL skills. Here I made search using User Defined Procedure within a table. The procedure has 3 inputs, first is a string with input parameters, second is a string with table name and third is a seporator for the first input string.
 
 ### Instructions
 
