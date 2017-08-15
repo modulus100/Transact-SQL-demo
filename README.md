@@ -4,11 +4,11 @@ These scripts have illustrative purpose of my basic T-SQL skills. Here I made se
 
 ### Instructions
 
-Open SQL Server Management Studio
+Open SQL Server Management Studio at first and execute scripts in a following order:
 
-- Extract downloaded files:
+- GuitarShopInit.sql -> Creates the databse with table and fills it.
 
-- Open Terminal (Linux/Mac OS) or PowerShell (Windows) in a folder where python files are located:
+- Demo_Search.sql    -> Executes User Defined Procedure
 
 - Run python script by using a command line in Terminal or PowerShell:
 
