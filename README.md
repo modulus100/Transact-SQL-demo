@@ -10,4 +10,4 @@ Open SQL Server Management Studio at first and execute scripts in a following or
 
 - Demo_Search.sql      -> Executes the User Defined Procedure.
 
-- Demo.sql             -> Applies the procedure for GuitarShop databse and show the result.
+- Demo.sql             -> Applies the procedure for GuitarShop database and shows the result.
