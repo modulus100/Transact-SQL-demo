@@ -1,6 +1,6 @@
 # Transact-SQL-Demo
 
-These scripts have illustrative purpose of my basic T-SQL skills. Here I made search using User Defined Procedure within a table. A procedure has 3 inputs, the first is a string with input parameters, the second is a string with table name and the third is a seporator for the first input string.
+These scripts have illustrative purpose of my basic T-SQL skills. Here I made User Defined Procedure that searhes for the rows within a table that have all provided paramaters. A procedure has 3 inputs, the first is a string with search parameters, the second is a string with table name and the third is a seporator for the first input string.
 
 ### Instructions
 
