@@ -6,12 +6,8 @@ These scripts have illustrative purpose of my basic T-SQL skills. Here I made se
 
 Open SQL Server Management Studio at first and execute scripts in a following order:
 
-- GuitarShopInit.sql -> Creates the databse with table and fills it.
+- GuitarShopP_Init.sql -> Creates the databse with table and fills it.
 
-- Demo_Search.sql    -> Executes User Defined Procedure
+- Demo_Search.sql      -> Executes the User Defined Procedure.
 
-- Run python script by using a command line in Terminal or PowerShell:
-
-```sh
-python list_of_movies.py
-```
+- Demo.sql             -> Applies the procedure for GuitarShop databse and show the result.
