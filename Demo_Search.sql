@@ -46,12 +46,11 @@ BEGIN
 	
 	DECLARE @SQL NVARCHAR(MAX)
 	SET @SQL = N'SELECT ' + @columns_names + ' FROM ( SELECT count(id) item_count,' + @columns_names + '
-				  FROM ' + @table_name + ',
-				  (
-				   SELECT VALUE
-					 FROM string_split(''' + @search_text + ''',''' + @separator + ''')
-			      ) temp
-				WHERE '+@global_condition+''' GROUP BY ' + @columns_names + ') rows WHERE item_count = ' + CONVERT(VARCHAR, @words_count)
+		FROM ' + @table_name + ', (
+			SELECT VALUE
+			FROM string_split(''' + @search_text + ''',''' + @separator + ''')
+		) temp
+		WHERE '+@global_condition+''' GROUP BY ' + @columns_names + ') rows WHERE item_count = ' + CONVERT(VARCHAR, @words_count)
 
 	PRINT @sql
 	EXECUTE sp_executesql @SQL
