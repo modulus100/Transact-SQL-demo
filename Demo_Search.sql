@@ -23,7 +23,7 @@ BEGIN
 	-- interfering with SELECT statements.
 	SET NOCOUNT ON;
 
-    -- Insert statements for procedure here
+    	-- Insert statements for procedure here
 	DECLARE @words_count INT
 	SET @words_count = ( SELECT COUNT(VALUE) FROM string_split(@search_text, @separator) );
 	
