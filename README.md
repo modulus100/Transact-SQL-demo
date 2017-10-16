@@ -6,7 +6,7 @@ These scripts have illustrative purpose of my basic T-SQL skills. Here I made Us
 
 Open SQL Server Management Studio at first and execute scripts in a following order:
 
-- GuitarShopP_Init.sql -> Creates the databse with table and fills it.
+- GuitarShop_Init.sql -> Creates the databse with table and fills it.
 
 - Demo_Search.sql      -> Executes the User Defined Procedure.
 
